@@ -25,7 +25,8 @@
   spring.profiles.active=test
   
 * H2 para entorno de pruebas
-  <dependency>
+  
+    <dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 		</dependency>
@@ -63,7 +64,8 @@
 
 # Para los test
 * jUnit 5
-   <dependency>
+  
+    <dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>5.9.1</version>
@@ -71,7 +73,8 @@
 		</dependency>
 
 * Mockito
-   <dependency>
+  
+    <dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-junit-jupiter</artifactId>
 			<version>5.6.0</version>
@@ -79,7 +82,8 @@
 		</dependency>
   
 * Para probar test con WebTestClient
-  <dependency>
+  
+   <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 			<scope>test</scope>
