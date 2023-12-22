@@ -7,7 +7,7 @@
  
 
 # Para el amacenamiento de datos 
-* MySql para entorno de desarrollo
+* MySQL para entorno de desarrollo
   
        <dependency>
 			<groupId>com.mysql</groupId>
@@ -28,7 +28,10 @@
   
 * H2 para entorno de pruebas
   
-                <dependency><groupId>com.h2database</groupId><artifactId>h2</artifactId></dependency>
+                <dependency>
+                   <groupId>com.h2database</groupId>
+                   <artifactId>h2</artifactId>
+                </dependency>
   
   configuracion del entorno de pruebas en el aplication-test.properties
   
