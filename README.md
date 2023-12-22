@@ -1,8 +1,9 @@
 # DEPENDENCIAS DEL PROYECTO
 
 # Para la persistencia de datos
-  JPA
+*JPA
   <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-data-jpa</artifactId></dependency>
+ 
 
 # Para el amacenamiento de datos 
 * MySql para entorno de desarrollo
